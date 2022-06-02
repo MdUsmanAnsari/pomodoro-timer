@@ -3,7 +3,7 @@ import TimerUI from "./TimerUI";
 
 const TIME = {
   minute:1,
-  second:10
+  second:0
 }
 
 const BreakTime = ({setTimerComplete}) => {
