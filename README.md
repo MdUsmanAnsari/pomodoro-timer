@@ -6,20 +6,32 @@
 
 ## Clone this project 
 
-```git clone https://github.com/MdUsmanAnsari/pomodro-timer.git```
+```
+git clone https://github.com/MdUsmanAnsari/pomodro-timer.git
+```
 
 
 ## Go to this project
 
-```cd pomodro-time```
+```
+cd pomodro-time
+```
 
 ## Install all dependencies and dev dependencies.
 
-```npm i``` or ```npm install```
+```
+npm i
+``` 
+or 
+```
+npm install
+```
 
-## Start app
+## Start React App
 
-```npm start```
+```
+npm start
+```
 
 
 
