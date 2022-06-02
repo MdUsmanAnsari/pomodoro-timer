@@ -29,7 +29,7 @@ function App() {
             {isTimerComplete && <BreakTime setTimerComplete={setTimerComplete} />}
           </>
        }
-       <button className="fixed top-10 right-10 bg-gray-900 py-2 px-4 text-gray-100 rounded-md" onClick={logoutHandler}>logout</button>
+      { accessToken && <button className="fixed top-10 right-10 bg-gray-900 py-2 px-4 text-gray-100 rounded-md" onClick={logoutHandler}>logout</button>}
     </div>
   );
 }
