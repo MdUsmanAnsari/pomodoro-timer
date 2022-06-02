@@ -2,7 +2,7 @@ import useTimerHook from "../hooks/useTimerHook";
 import TimerUI from "./TimerUI";
 
 const TIME = {
-  minute:1,
+  minute:5,
   second:0
 }
 

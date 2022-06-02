@@ -4,7 +4,7 @@ import TimerUI from './TimerUI'
 function FocusTimer({setTimerComplete}) {
 
   const TIME = {
-    minute:2,
+    minute:25,
     second:0
  }
 
