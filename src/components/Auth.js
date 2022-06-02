@@ -89,9 +89,9 @@ const Auth = ({setAccessToken}) =>{
             <div className="max-w-lg bg-gray-50 p-14 rounded-md shadow-lg">
                 <p className="text-indigo-600 mb-8 text-4xl text-center">User Login</p>
                 <form className="flex flex-col gap-8" onSubmit={onSubmitHandler}>
-                    <input className="px-4 py-2 rounded border-2 border-indigo-600 text-lg" name="email" type="email" placeholder="Enter Email" />
+                    <input className="px-4 py-2 rounded border-2 border-indigo-600 text-lg" name="email" type="email" placeholder="Enter Email" required />
                      <div className="w-full">
-                         <input className="w-full px-4 py-2 rounded border-2 border-indigo-600 text-lg" name="password" type="password" placeholder="Enter Password" />
+                         <input className="w-full px-4 py-2 rounded border-2 border-indigo-600 text-lg" name="password" type="password" placeholder="Enter Password" required />
                         { status.status === 'error' && <p className="mt-2 text-base text-rose-600">{status.message}</p>}
                    
                      </div>
