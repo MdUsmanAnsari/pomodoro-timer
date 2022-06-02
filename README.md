@@ -1,4 +1,6 @@
-# How you can start this project
+## live link: [https://pomodro-timer.netlify.app/](https://pomodro-timer.netlify.app/)
+
+# How to run this project in local
 
 ### Just follow the given order step by step 👇
 
